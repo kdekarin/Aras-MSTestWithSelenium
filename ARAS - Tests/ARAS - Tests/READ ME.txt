@@ -1,0 +1,10 @@
+﻿----------------------------------------------------------------
+--------How to run selenium tests without Visual studio---------
+----------------------------------------------------------------
+
+Hier ist Version 2 von MS / Selenium Tests (OneDrive URL): https://1drv.ms/u/s!BBLBMdA2zOo5h_QC6-wS71VdHfMAlQ?e=puxQLo
+1.	Download & install Test agent: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=TestAgent
+2.    Open CMD and execute: cd C:\Program Files (x86)\Microsoft Visual Studio\2019\TestAgent\Common7\IDE\CommonExtensions\Microsoft\TestWindow
+3.    Execute in CMD: vstest.console C:\TIS\MSTestWithSeleniumPOC\ARAS-Tests\ARAS-Tests\bin\Debug\netcoreapp3.1\ARAS.Tests.dll
+
+Es ist so groß weil Full Version von Chromium ist da drinnen…
